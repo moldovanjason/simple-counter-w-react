@@ -8,12 +8,12 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export function Home(props) {
 	return (
 		<div className="timer text-center mt-5 d-flex">
-			<div>{props.char1} </div>
-			<div>{props.char2}</div>
-			<div>{props.char3}</div>
-			<div>{props.char4}</div>
-			<div>{props.char5}</div>
-			<div>{props.char6}</div>
+			<div className="num1">{props.char1}</div>
+			<div className="num2">{props.char2}</div>
+			<div className="num3">{props.char3}</div>
+			<div className="num4">{props.char4}</div>
+			<div className="num5">{props.char5}</div>
+			<div className="num6">{props.char6}</div>
 		</div>
 	);
 }
